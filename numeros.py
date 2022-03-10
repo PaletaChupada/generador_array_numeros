@@ -5,7 +5,6 @@ import random
 print("Cantidad de numeros en el arreglo:")
 num = input()
 num = int(num)
-num1 = num
 
 # Inicializamos el archivo de texto, el arreglo de numeros y este primer 
 # valor lo anexamos al archivo txt
@@ -30,7 +29,7 @@ random.shuffle(numeros)
 i=1
 
 # Escribimos el arreglo en el txt separado con espacio
-while i<num1:
+while i<num:
     outfile.writelines(str(numeros[i])+" ")
     i+=1
 
