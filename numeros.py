@@ -1,3 +1,6 @@
+# Importamos la libreria random
+import random
+
 # Pedimos al usuario que digite la cantidad de numeros que tendra el txt
 print("Cantidad de numeros en el arreglo:")
 num = input()
