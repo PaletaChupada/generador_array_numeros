@@ -7,9 +7,8 @@ num = input()
 num = int(num)
 num1 = num
 
-# Inicializamos el archivo de texto, el arreglo de numeros con parametros 
-# de crear numeros hasta el valor de num y este primer valor lo anexamos 
-# al archivo txt
+# Inicializamos el archivo de texto, el arreglo de numeros y este primer 
+# valor lo anexamos al archivo txt
 outfile = open('numeros.txt', 'w')
 numeros = [0]
 outfile.writelines(str(numeros[0])+" ")
